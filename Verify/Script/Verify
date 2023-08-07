@@ -1,0 +1,13 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Schub","BloodTheme")
+
+---Tabs
+
+local Tab1 = window:NewTab("Verify")
+local Tab1Section = Tab1:NewSection("Please verify by using join link that I post you")
+
+--Buttons
+
+Tab1Section:NewButton("verify", "your not verify jet", function() 
+Print("Verify") 
+end)
